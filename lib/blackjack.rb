@@ -53,9 +53,8 @@ end
 # get every test to pass before coding runner below #
 #####################################################
 
-card_total = 0
-
 def runner
+  card_total = 0
   welcome
   initial_round
   puts card_total
