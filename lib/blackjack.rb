@@ -55,6 +55,7 @@ def runner
   card_total = 0
   welcome
   initial_round
+  .pry
   until card_total > 21
     hit?(card_total)
     display_card_total(card_total)
