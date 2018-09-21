@@ -26,6 +26,7 @@ def initial_round
   total = deal_card + deal_card
   $card_total = total
   display_card_total($card_total)
+  $card_total
 end
 
 def hit?(total)
