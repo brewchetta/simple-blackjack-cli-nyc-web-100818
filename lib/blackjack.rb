@@ -49,8 +49,9 @@ end
 # get every test to pass before coding runner below #
 #####################################################
 
-def runner
-  card_total = 0
+card_total = 0
+
+def runner(card_total)
   welcome
   initial_round
   display_card_total(card_total)
