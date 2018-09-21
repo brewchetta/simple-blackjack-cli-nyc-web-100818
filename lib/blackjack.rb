@@ -11,7 +11,7 @@ def display_card_total(i)
 end
 
 def prompt_user
-  puts "Hit? (y/n)"
+  puts "Type 'h' to hit or 's' to stay"
 end
 
 def get_user_input
@@ -30,6 +30,7 @@ end
 
 def hit?(card_total)
   prompt_user
+  get_user_input
 end
 
 def invalid_command
