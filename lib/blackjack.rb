@@ -50,6 +50,7 @@ end
 #####################################################
 
 def runner(card_total)
+  card_total = 0
   welcome
   initial_round
   display_card_total(card_total)
